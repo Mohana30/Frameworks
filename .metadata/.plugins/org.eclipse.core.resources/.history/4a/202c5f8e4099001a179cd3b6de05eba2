@@ -1,0 +1,27 @@
+package Selenium_Tuts1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+public class InternetexplorerFirstPgm {
+	
+	public static void main(String[] args) throws Exception
+	{
+		//Set the path of driver
+		System.setProperty("webdriver.ie.driver","D://IEDriverServer.exe");
+		//Initialize Internet Explorer Instance
+		WebDriver driver = new InternetExplorerDriver();
+		//Launch the URL
+		driver.get("http://only-testing-blog.blogspot.com/2014/04/calc.html");
+		//Execute the sample calc test
+		driver.findElement(By.xpath("//input[@id='1']"));
+		driver.findElement(By.xpath("//input[@id='plus']"));
+		driver.findElement(By.xpath("//input[@id='0']"));
+		String calc_value = driver.findElement(By.xpath("//input[@id='Resultbox']")).getAttribute("value");
+		System.out.println(calc_value);
+		driver.close();
+		
+	}
+
+}

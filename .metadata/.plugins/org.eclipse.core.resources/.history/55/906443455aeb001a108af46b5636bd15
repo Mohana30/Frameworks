@@ -1,0 +1,24 @@
+package cucumberOptions;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+//we have to give feature file and step definition
+//Feature file will connect the both dots with the path
+	
+	//Cucumber options is a method will acceopt two parameter
+	//one is : feature file path and step definition path
+	//if you want file level give the file path but for more test cases we have to give package level
+	//No need to mention the path for glue parameter because it has the same package for feature and stepdefinision
+	//Rule : There should be mapping mplementation for each gherkin line
+	//Rule : Pretty gherkin plugin to generate step definition
+	//Rule : Cucumber options :
+	@RunWith(Cucumber.class)
+	@CucumberOptions(
+			features={"src/test/resource/features"},
+			glue={"src/test/java/stepDefinations"})
+public class TestRunner {
+
+}

@@ -1,0 +1,53 @@
+package PP_Framework;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import PageObjects.LandingPage;
+import PageObjects.LoginPage;
+
+import resources.baseClass;
+
+public class ValidateNavigationBar extends baseClass {
+	
+	@BeforeTest
+	public void Launch() throws IOException {
+		driver=initializeDriver();
+		driver.get(prop.getProperty("URL"));
+		
+	}
+	
+
+	@Test
+	public void basePageNavigation() throws IOException {
+		driver=initializeDriver();
+		driver.get(prop.getProperty("URL"));
+		//If you want to use the method or variables of other class there are two ways
+		//1. inheritence
+		//2. Creating object for the class and calling the method
+		LandingPage landing = new LandingPage(driver);
+		Assert.assertTrue(landing.getNavCoursesTab().isDisplayed());
+		Assert.assertTrue(landing.getNavHomeTab().isDisplayed());
+		Assert.assertTrue(landing.getNavVideosTab().isDisplayed());
+		Assert.assertTrue(landing.getNavInterviewGuideTab().isDisplayed());
+		Assert.assertTrue(landing.getNavPracticeTab().isDisplayed());
+		Assert.assertTrue(landing.getNavBlogTab().isDisplayed());
+		Assert.assertTrue(landing.getNavAboutTab().isDisplayed());
+		Assert.assertTrue(landing.getNavContactTab().isDisplayed());
+	}
+	
+	
+	@AfterTest
+	public void closeBrowser() {
+		driver.close();
+	}
+
+
+}

@@ -1,0 +1,7 @@
+11:51:28:836 [main] INFO  PP_Framework.HomePage - browser closed
+11:52:48:21 [main] INFO  PP_Framework.HomePage - Driver is initialized
+11:52:51:884 [main] INFO  PP_Framework.HomePage - Navigated to home page
+11:53:00:90 [main] INFO  PP_Framework.HomePage - Subscribe popup was closed
+11:53:01:392 [main] INFO  PP_Framework.HomePage - Signin button was clicked
+11:53:01:550 [main] INFO  PP_Framework.HomePage - Entered Username
+11:53:01:653 [main] INFO  PP_Framework.HomePage - Entered password

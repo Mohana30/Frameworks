@@ -1,0 +1,17 @@
+package PP_Framework;
+
+public class baseClass {
+
+//Here we will declare about the driver, all the test cases will point to this test class...so whenever we have a requirement to change the driver we can change it in this class alone
+	//instead doing it in all the test cases(eg-500)
+	
+	public void initializeDriver() {
+		//one method all desired block should executed..  if u give chrome - only one method initializeDriver - will execute and Chrome block will execute
+		//Chrome
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream();
+		//firefox
+		
+		//IE
+	}
+}

@@ -1,0 +1,26 @@
+11:53:59:497 [main] INFO  PP_Framework.HomePage - Driver is initialized
+11:54:03:690 [main] INFO  PP_Framework.HomePage - Navigated to home page
+11:54:11:593 [main] INFO  PP_Framework.HomePage - Subscribe popup was closed
+11:54:13:07 [main] INFO  PP_Framework.HomePage - Signin button was clicked
+11:54:13:133 [main] INFO  PP_Framework.HomePage - Entered Username
+11:54:13:192 [main] INFO  PP_Framework.HomePage - Entered password
+11:54:13:510 [main] INFO  PP_Framework.HomePage - Login button clicked
+11:54:13:623 [main] INFO  PP_Framework.HomePage - Entered Username
+11:54:13:686 [main] INFO  PP_Framework.HomePage - Entered password
+11:54:14:22 [main] INFO  PP_Framework.HomePage - Login button clicked
+11:54:14:127 [main] INFO  PP_Framework.HomePage - browser closed
+11:55:17:24 [main] INFO  PP_Framework.HomePage - Driver is initialized
+11:55:21:201 [main] INFO  PP_Framework.HomePage - Navigated to home page
+11:55:29:611 [main] INFO  PP_Framework.HomePage - Subscribe popup was closed
+11:55:30:829 [main] INFO  PP_Framework.HomePage - Signin button was clicked
+11:55:36:80 [main] INFO  PP_Framework.ValidateNavigationBar - Driver is initialized
+11:55:39:04 [main] INFO  PP_Framework.ValidateNavigationBar - URL launched
+11:55:47:514 [main] INFO  PP_Framework.ValidateNavigationBar - Subscribe popup was closed
+11:55:48:245 [main] INFO  PP_Framework.ValidateNavigationBar - All the navigation tabs were verified
+11:55:52:623 [main] INFO  PP_Framework.HomePage - Entered Username
+11:55:52:804 [main] INFO  PP_Framework.HomePage - Entered password
+11:55:53:798 [main] INFO  PP_Framework.HomePage - Login button clicked
+11:55:53:950 [main] INFO  PP_Framework.HomePage - Entered Username
+11:55:54:54 [main] INFO  PP_Framework.HomePage - Entered password
+11:55:54:550 [main] INFO  PP_Framework.HomePage - Login button clicked
+11:55:54:680 [main] INFO  PP_Framework.HomePage - browser closed

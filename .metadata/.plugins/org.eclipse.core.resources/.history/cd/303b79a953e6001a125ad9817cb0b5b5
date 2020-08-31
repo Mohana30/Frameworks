@@ -1,0 +1,9 @@
+package PageObjects;
+
+import org.openqa.selenium.By;
+
+public class LandingPage {
+
+	By.ByCssSelector(a[href*='sign']);
+	
+}

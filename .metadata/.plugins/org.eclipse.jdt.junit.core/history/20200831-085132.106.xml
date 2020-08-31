@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumberbasic" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="cucucmberTest.TestRunner" time="0.478">
+    <testsuite name="Application Login" time="0.478">
+      <testcase name="Home page default login" classname="Application Login" time="0.478">
+        <error>io.cucumber.java.PendingException: TODO: implement me&#13;
+	at stepDefinitions.StepDefinitions.user_is_on_netbanking_landing_page(StepDefinitions.java:16)&#13;
+	at ✽.User is on Netbanking landing page(file:///C:/Users/HP/eclipse-workspace/Cucumberbasic/src/test/java/features/Login.feature:4)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

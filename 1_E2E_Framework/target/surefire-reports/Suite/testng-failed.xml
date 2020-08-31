@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="PP_Framework.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="PP_Framework.HomePage">
+        <methods>
+          <include name="Launch"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- PP_Framework.HomePage -->
+      <class name="PP_Framework.ValidateTitle">
+        <methods>
+          <include name="validateTextandTitle"/>
+          <include name="Launch"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- PP_Framework.ValidateTitle -->
+      <class name="PP_Framework.ValidateNavigationBar">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Launch"/>
+        </methods>
+      </class> <!-- PP_Framework.ValidateNavigationBar -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

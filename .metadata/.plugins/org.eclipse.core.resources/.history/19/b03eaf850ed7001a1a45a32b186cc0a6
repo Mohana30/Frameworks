@@ -1,0 +1,53 @@
+package Selenium_Tuts1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class SelectDropdown {
+	
+	public static void main(String[] args)
+	{
+		System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://spicejet.com/");
+		driver.manage().window().maximize();
+		
+		WebDriverWait wait = new WebDriverWait(driver,10);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("divpaxinfo")));  //Thread.sleep(2000L) was the 
+		
+		//Click on the Passengers div
+		driver.findElement(By.cssSelector("#divpaxinfo")).click();
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("ctl00_mainContent_ddl_Adult")));
+		
+		//Able to see the number of adult drop down	and the tagName is Select so only we are using Select Class
+		Select s = new Select(driver.findElement(By.id("ctl00_mainContent_ddl_Adult")));
+		
+		//Working with while loop
+		int i = 1;
+		while(i<=5)
+		{
+		s.selectByValue(Integer.toString(i));
+		i++;
+		}
+		
+		//workng with for loop
+		for(i=5;i<=9;i++)
+		{
+			s.selectByIndex(i);
+		}
+		
+		
+		String text = driver.findElement(arg0).getText();
+		System.out.println(+text+" is displayed");
+		
+		
+		//Close the driver
+		driver.close();
+		
+	}
+
+}

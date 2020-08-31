@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16114" started-at="2020-08-28T16:07:20 BST" finished-at="2020-08-28T16:07:36 BST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16114" started-at="2020-08-28T16:07:20 BST" finished-at="2020-08-28T16:07:36 BST">
+      <class name="PP_Framework.HomePage">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:PP_Framework.HomePage@65b3f4a4]" name="Launch" is-config="true" duration-ms="6605" started-at="2020-08-28T16:07:20 BST" finished-at="2020-08-28T16:07:26 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PP_Framework.HomePage@65b3f4a4]" name="validateLogin" duration-ms="6475" started-at="2020-08-28T16:07:26 BST" data-provider="getData" finished-at="2020-08-28T16:07:33 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:PP_Framework.HomePage@65b3f4a4]" name="validateLogin" duration-ms="2823" started-at="2020-08-28T16:07:33 BST" data-provider="getData" finished-at="2020-08-28T16:07:35 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456788]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:PP_Framework.HomePage@65b3f4a4]" name="closeBrowser" is-config="true" duration-ms="162" started-at="2020-08-28T16:07:35 BST" finished-at="2020-08-28T16:07:36 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- PP_Framework.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

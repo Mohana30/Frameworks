@@ -1,0 +1,29 @@
+package Selenium_Tuts1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class AssignmentPassVelues {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+//		driver.findElement(By.cssSelector("label[for='benz'] input")).click();
+//		String optionValue = driver.findElement(By.cssSelector("label[for='benz']")).getText();
+//		System.out.println("Option selected is : "+optionValue);
+//		WebElement ele = driver.findElement(By.id("dropdown-class-example"));
+//		Select s=new Select(ele);
+//		s.selectByVisibleText(optionValue);
+//		
+//		driver.close();
+		int a=1;
+		int b=0;
+		int c=a/b;
+		System.out.println(c);
+		
+	}
+
+}

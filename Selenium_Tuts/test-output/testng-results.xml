@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan APP" duration-ms="129" started-at="2020-08-29T09:39:06Z" finished-at="2020-08-29T09:39:06Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="40" started-at="2020-08-29T09:39:06Z" finished-at="2020-08-29T09:39:06Z">
+      <class name="TestNGeg.AnnotationTestNG2">
+        <test-method status="PASS" signature="Weblogin()[pri:0, instance:TestNGeg.AnnotationTestNG2@30d1e6]" name="Weblogin" duration-ms="4" started-at="2020-08-29T10:39:06Z" finished-at="2020-08-29T10:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogin -->
+      </class> <!-- TestNGeg.AnnotationTestNG2 -->
+    </test> <!-- Login -->
+    <test name="Loan" duration-ms="3" started-at="2020-08-29T09:39:06Z" finished-at="2020-08-29T09:39:06Z">
+      <class name="TestNGeg.AnnotationTestNG">
+        <test-method status="PASS" signature="Webloan()[pri:0, instance:TestNGeg.AnnotationTestNG@ceb130]" name="Webloan" is-config="true" duration-ms="37" started-at="2020-08-29T10:39:06Z" finished-at="2020-08-29T10:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Webloan -->
+        <test-method status="PASS" signature="APIloan()[pri:0, instance:TestNGeg.AnnotationTestNG@ceb130]" name="APIloan" duration-ms="0" started-at="2020-08-29T10:39:06Z" finished-at="2020-08-29T10:39:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloan -->
+        <test-method status="PASS" signature="Mobileloan(java.lang.String)[pri:0, instance:TestNGeg.AnnotationTestNG@ceb130]" name="Mobileloan" duration-ms="0" started-at="2020-08-29T10:39:06Z" finished-at="2020-08-29T10:39:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amp#4721s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileloan -->
+      </class> <!-- TestNGeg.AnnotationTestNG -->
+    </test> <!-- Loan -->
+  </suite> <!-- Loan APP -->
+</testng-results>

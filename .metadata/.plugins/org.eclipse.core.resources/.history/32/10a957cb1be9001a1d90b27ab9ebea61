@@ -1,0 +1,6 @@
+23:16:53:367 [main] INFO  PP_Framework.HomePage - Navigated to home page
+23:17:01:402 [main] INFO  PP_Framework.HomePage - Subscribe popup was closed
+23:17:02:940 [main] INFO  PP_Framework.HomePage - Login button was clicked
+23:17:13:676 [main] INFO  PP_Framework.ValidateNavigationBar - Driver is initialized
+23:17:22:715 [main] INFO  PP_Framework.ValidateNavigationBar - Subscribe popup was closed
+23:17:23:403 [main] INFO  PP_Framework.ValidateNavigationBar - All the navigation tabs were verified

@@ -1,0 +1,40 @@
+package PP_Framework;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import PageObjects.LandingPage;
+import PageObjects.LoginPage;
+
+import resources.baseClass;
+
+public class ValidateTitle extends baseClass {
+
+	@Test
+	public void basePageNavigation() throws IOException {
+		driver=initializeDriver();
+		Properties prop = new Properties();
+		//FileInputStream will read the data inside the 
+		FileInputStream fis = new FileInputStream("C:\\Users\\HP\\eclipse-workspace\\1_E2E_Framework\\src\\main\\java\\resources\\data.properties");
+		prop.load(fis);
+		String url = prop.getProperty("URL");
+		driver.get(url);
+		
+		//If you want to use the method or variables of other class there are two ways
+		//1. inheritence
+		//2. Creating object for the class and calling the method
+		LandingPage landing = new LandingPage(driver);
+		Assert.assertEquals("FEATURED COURSES",landing.getFearuredCourses().getText());
+		
+		
+	}
+	
+	
+
+
+}

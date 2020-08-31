@@ -1,0 +1,58 @@
+package PP_Framework;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class baseClass {
+
+//Here we will declare about the driver, all the test cases will point to this test class...so whenever we have a requirement to change the driver we can change it in this class alone
+	//instead doing it in all the test cases(eg-500)
+	public WebDriver driver;
+	
+	public WebDriver initializeDriver() throws IOException {
+		
+		//one method all desired block should executed..  if u give chrome - only one method initializeDriver - will execute and Chrome block will execute
+		//Why property class -> it is because it is storing the values in Key and Values format, like a banking application can have Key as a account number
+		//and values as - name, DOB, sort code etc Eg 2: Automobile project have the Registration number as Key and Model,features as values
+		//A single key can have multiple values
+		//ADVANTAGE IS : value of any data structure can be stored
+		
+		//Write webdriver define object globally.. bcoz creating obj only once and also the scope dies after the block
+		
+		
+		Properties prop = new Properties();
+		//FileInputStream will read the data inside the 
+		FileInputStream fis = new FileInputStream("C:\\Users\\HP\\eclipse-workspace\\1_E2E_Framework\\src\\test\\java\\PP_Framework\\data.properties");
+		prop.load(fis);
+		String browserName = prop.getProperty("browser");
+		
+		//Chrome
+		if(browserName=="chrome") {
+			System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+			driver = new ChromeDriver();
+		}		
+		//firefox
+		else if(browserName=="firefox") {
+			System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+			driver = new ChromeDriver();
+		}
+		
+		//IE
+		else if(browserName=="IE") {
+			System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
+			driver = new ChromeDriver();
+		}
+		
+		//Declare implicit wait
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		return driver;
+		
+	}
+	
+}

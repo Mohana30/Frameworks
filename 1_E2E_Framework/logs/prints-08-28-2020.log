@@ -1,0 +1,65 @@
+14:21:59:36 [main] INFO  PP_Framework.HomePage - Entered password
+14:21:59:409 [main] INFO  PP_Framework.HomePage - Login button clicked
+14:22:00:897 [main] INFO  PP_Framework.HomePage - browser closed
+14:44:03:918 [TestNG] INFO  PP_Framework.ValidateNavigationBar - Driver is initialized
+14:44:09:32 [TestNG] INFO  PP_Framework.ValidateNavigationBar - URL launched
+14:44:16:228 [TestNG] INFO  PP_Framework.ValidateNavigationBar - Subscribe popup was closed
+14:44:16:523 [TestNG] INFO  PP_Framework.ValidateNavigationBar - All the navigation tabs were verified
+14:44:22:355 [TestNG] INFO  PP_Framework.ValidateTitle - Driver is initialized
+14:44:26:822 [TestNG] INFO  PP_Framework.ValidateTitle - URL launched
+14:44:36:97 [TestNG] INFO  PP_Framework.ValidateTitle - Subscribe popup was closed
+14:44:36:157 [TestNG] INFO  PP_Framework.ValidateTitle - Featured course matched
+14:44:41:936 [TestNG] INFO  PP_Framework.HomePage - Driver is initialized
+14:44:45:906 [TestNG] INFO  PP_Framework.HomePage - Navigated to home page
+14:44:53:398 [TestNG] INFO  PP_Framework.HomePage - Subscribe popup was closed
+14:44:54:795 [TestNG] INFO  PP_Framework.HomePage - Signin button was clicked
+14:44:54:929 [TestNG] INFO  PP_Framework.HomePage - Entered Username
+14:44:55:18 [TestNG] INFO  PP_Framework.HomePage - Entered password
+14:44:55:328 [TestNG] INFO  PP_Framework.HomePage - Login button clicked
+14:44:55:432 [TestNG] INFO  PP_Framework.HomePage - Entered Username
+14:44:55:511 [TestNG] INFO  PP_Framework.HomePage - Entered password
+14:44:55:789 [TestNG] INFO  PP_Framework.HomePage - Login button clicked
+14:44:55:850 [TestNG] INFO  PP_Framework.HomePage - browser closed
+14:45:58:858 [TestNG] INFO  PP_Framework.ValidateNavigationBar - Driver is initialized
+14:46:03:428 [TestNG] INFO  PP_Framework.ValidateNavigationBar - URL launched
+14:46:11:213 [TestNG] INFO  PP_Framework.ValidateNavigationBar - Subscribe popup was closed
+14:46:11:793 [TestNG] INFO  PP_Framework.ValidateNavigationBar - All the navigation tabs were verified
+14:46:17:752 [TestNG] INFO  PP_Framework.ValidateTitle - Driver is initialized
+14:46:22:176 [TestNG] INFO  PP_Framework.ValidateTitle - URL launched
+14:46:29:934 [TestNG] INFO  PP_Framework.ValidateTitle - Subscribe popup was closed
+14:46:36:544 [TestNG] INFO  PP_Framework.HomePage - Driver is initialized
+14:46:40:244 [TestNG] INFO  PP_Framework.HomePage - Navigated to home page
+14:46:48:247 [TestNG] INFO  PP_Framework.HomePage - Subscribe popup was closed
+14:46:49:711 [TestNG] INFO  PP_Framework.HomePage - Signin button was clicked
+14:46:49:825 [TestNG] INFO  PP_Framework.HomePage - Entered Username
+14:46:49:895 [TestNG] INFO  PP_Framework.HomePage - Entered password
+14:46:50:224 [TestNG] INFO  PP_Framework.HomePage - Login button clicked
+14:46:50:376 [TestNG] INFO  PP_Framework.HomePage - Entered Username
+14:46:50:509 [TestNG] INFO  PP_Framework.HomePage - Entered password
+14:46:50:910 [TestNG] INFO  PP_Framework.HomePage - Login button clicked
+14:46:51:11 [TestNG] INFO  PP_Framework.HomePage - browser closed
+15:16:07:964 [TestNG] INFO  PP_Framework.ValidateNavigationBar - Driver is initialized
+15:16:13:15 [TestNG] INFO  PP_Framework.ValidateNavigationBar - URL launched
+15:16:20:882 [TestNG] INFO  PP_Framework.ValidateNavigationBar - Subscribe popup was closed
+15:16:21:399 [TestNG] INFO  PP_Framework.ValidateNavigationBar - All the navigation tabs were verified
+15:16:27:358 [TestNG] INFO  PP_Framework.ValidateTitle - Driver is initialized
+15:16:32:318 [TestNG] INFO  PP_Framework.ValidateTitle - URL launched
+15:16:38:731 [TestNG] INFO  PP_Framework.ValidateTitle - Subscribe popup was closed
+15:16:45:70 [TestNG] INFO  PP_Framework.HomePage - Driver is initialized
+15:16:49:426 [TestNG] INFO  PP_Framework.HomePage - Navigated to home page
+15:16:57:115 [TestNG] INFO  PP_Framework.HomePage - Subscribe popup was closed
+15:16:58:561 [TestNG] INFO  PP_Framework.HomePage - Signin button was clicked
+15:16:58:708 [TestNG] INFO  PP_Framework.HomePage - Entered Username
+15:16:58:821 [TestNG] INFO  PP_Framework.HomePage - Entered password
+15:16:59:109 [TestNG] INFO  PP_Framework.HomePage - Login button clicked
+15:17:01:04 [TestNG] INFO  PP_Framework.HomePage - Navigated to home page
+15:17:11:728 [TestNG] INFO  PP_Framework.HomePage - browser closed
+16:00:21:543 [main] INFO  PP_Framework.HomePage - Driver is initialized
+16:00:26:436 [main] INFO  PP_Framework.HomePage - Navigated to home page
+16:00:36:536 [main] INFO  PP_Framework.HomePage - Subscribe popup was closed
+16:00:37:921 [main] INFO  PP_Framework.HomePage - Signin button was clicked
+16:00:38:07 [main] INFO  PP_Framework.HomePage - Entered Username
+16:00:38:66 [main] INFO  PP_Framework.HomePage - Entered password
+16:00:38:333 [main] INFO  PP_Framework.HomePage - Login button clicked
+16:00:40:295 [main] INFO  PP_Framework.HomePage - Navigated to home page
+16:00:50:601 [main] INFO  PP_Framework.HomePage - browser closed

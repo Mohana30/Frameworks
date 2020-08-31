@@ -1,0 +1,19 @@
+package PP_Framework;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+import PP_Framework.baseClass;
+
+public class HomePage extends baseClass {
+	
+	@Test
+	public void basePageNavigation() throws IOException {
+		baseClass hp = new baseClass();
+		
+		hp.initializeDriver();
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package resources;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+public class ExtentReportNG {
+	
+	static ExtentReports extent;
+	public static ExtentReports extentReporter() {
+		String reportPath = System.getProperty("user.dir")+"\\reports\\index.html";
+		ExtentSparkReporter reporter = new ExtentSparkReporter(reportPath);
+		//From the spark class we can expect the generated report file
+		//This class is responsible to create a HTML report
+		//Everything is configurable in extent report
+		reporter.config().setReportName("Web Automation Results");
+		reporter.config().setDocumentTitle("Test Result");
+		//All the configuration of the report is done
+		
+		extent = new ExtentReports();
+		extent.attachReporter(reporter);
+		extent.setSystemInfo("Automation Tester", "Priya");
+		return extent;
+	}
+	
+
+}
